@@ -6,9 +6,11 @@
     <title>Number Guessing Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <div class="container">
+
     <h1> Number Guessing Game</h1>
 
     <p>I am thinking of a number between <b>1</b> and <b>100</b>.</p>
@@ -21,7 +23,11 @@
 
     <p>Attempts: <span id="attempts">0</span></p>
 
+    <!-- Added this to show all guesses -->
+    <p id="guesses">Your guesses: </p>
+
     <button onclick="restartGame()">New Game</button>
+
 </div>
 
 <script src="script.js"></script>
